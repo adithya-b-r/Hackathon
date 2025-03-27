@@ -6,7 +6,7 @@ export const Navbar = () => {
       style={{ paddingLeft: '2rem', paddingRight: '2rem' }}
       className="h-[10vh] w-full bg-black flex justify-between items-center text-white transition-all duration-500"
     >
-      <h1 className="text-white text-2xl font-bold">AgriVerse</h1>
+      <h1 className="text-white text-2xl font-bold select-none hover:tracking-wider transition-all">AgriVerse</h1>
 
       <div className="flex justify-between items-center" style={{ width: '50%' }}>
         {['MarketPlace', 'Lab', 'Schemes', 'Notifications'].map((item, index) => (
